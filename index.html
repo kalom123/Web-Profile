@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hesed Jeremiah Salino | Web Developer Portfolio</title>
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+		<!-- external css styling -->
+		<link rel="stylesheet" type="text/css" href="index.css">
+
+	</head>
+	<body>
+		<!-- div creates a wrapper or container for our layout -->
+		<!-- class is an attribute to name out dive -->
+		<div class="container-fluid">
+			<!-- id is an attribute to name a tag uniquely -->
+			<section id="landing" class="text-center mt-5">
+				<img src="images/me.jpg" id="profile" class="img-fluid">
+				<h1>Hesed Jeremiah C. Salino</h1>
+				<p>Cebu City, Cebu, Philippines</p>
+			</section>	
+		</div>
+
+		<div id="socicon">Social Media:
+			<a href="mailto:hesed.salino@gmail.com" target="_blank"><img src="images/Gmail Icon.png" alt="Gmail" class="socialacc" ></a>
+			<a href="https://www.linkedin.com/in/hesed-jeremiah-salino-554644190/" target="_blank"><img src="images/LinkedIn_icon.png" alt="linkedin" class="socialacc"></a>
+			<a href="https://github.com/kalom123" target="_blank"><img src="images/Githubicon.png" alt="github" class="socialacc"></a>
+			<a href="https://www.facebook.com/kitrixz" target="_blank"><img src="images/fbicon.png" alt="facebook" class="socialacc"></a>
+		</div>
+
+		<div id="buttong">
+			<button type="button" id="buttong" class="btn btn-primary btn-lg">About</button>
+		</div>
+		<script type="text/javascript">
+			document.getElementById("buttong").onclick = function () {
+				location.href = "profile.html";
+			};
+		</script>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	</body>
+</html>
